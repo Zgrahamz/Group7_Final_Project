@@ -38,5 +38,6 @@ namespace Group7_Final_Project.EFCoreWebApi.Data
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<FavoriteBreakfast> FavoriteBreakfasts { get; set; }
         public DbSet<FavoriteHoliday> FavoriteHolidays { get; set; }
+        public DbSet<FavoritePlanet> FavoritePlanets { get; set; }
     }
 }
